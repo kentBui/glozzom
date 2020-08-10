@@ -1,0 +1,8 @@
+@import "./setting.css";
+@import "./navbar.css";
+
+.showcase {
+  height: 200px;
+  background: url(../images/glozzom/media.jpg) no-repeat;
+  background-attachment: fixed;
+}

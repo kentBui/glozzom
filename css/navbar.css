@@ -1,0 +1,22 @@
+.navbar-conf .nav-item:not(:last-child) {
+  padding-right: 15px;
+}
+
+.navbar-conf .nav-link {
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 1rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 1rem;
+}
+
+.navbar-conf .active {
+  border-left: 2px solid #aaa;
+}
+
+.carousel-conf .carousel-item {
+  height: 500px;
+  /* overflow: hidden; */
+}

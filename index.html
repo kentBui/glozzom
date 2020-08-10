@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="KentBui" />
+    <meta name="keyword" content="bootstrap, project" />
+    <meta name="description" content="learn bootstrap with project" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/lightgallery.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Glozzom</title>
+  </head>
+  <body>
+    <!-- Start Here -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark navbar-conf"
+        id="main-nav"
+      >
+        <div class="container">
+          <a href="#" class="navbar-brand">Glozzom</a>
+          <button
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar-menu"
+            class="navbar-toggler"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link text-uppercase active">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./about.html" class="nav-link text-uppercase"
+                  >about us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./services.html" class="nav-link text-uppercase"
+                  >services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./blog.html" class="nav-link text-uppercase">blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="./contact.html" class="nav-link text-uppercase"
+                  >contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- start show case -->
+      <section class="showcase">
+        <div
+          class="carousel slide carousel-conf"
+          id="carousel"
+          data-ride="carousel"
+        >
+          <ul class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner">
+            <div class="carousel-item carousel-image-1 active">
+              <div class="container">
+                <div class="carousel-caption pb-5 text-right d-none d-md-block">
+                  <h5 class="display-4">Caption 1</h5>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Possimus, eius!
+                  </p>
+                  <a href="#" class="btn btn-info">View more</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item carousel-image-2">
+              <div class="container">
+                <div
+                  class="carousel-caption pb-5 text-center d-none d-md-block"
+                >
+                  <h5 class="display-4">Caption 2</h5>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Possimus, eius!
+                  </p>
+                  <a href="#" class="btn btn-dark">View more</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item carousel-image-3">
+              <div class="container">
+                <div class="carousel-caption pb-5 text-right d-none d-md-block">
+                  <h5 class="display-4">Caption 3</h5>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Possimus, eius!
+                  </p>
+                  <a href="#" class="btn btn-secondary">View more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#carousel" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a href="#carousel" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </section>
+      <!-- end show case -->
+      <!-- start home icon -->
+      <section class="home-icon py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <i class="fa fa-cog fa-3x" aria-hidden="true"></i>
+              <h2 class="my-2 text-capitalize">Turning gears</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur veritatis sequi vel.
+              </p>
+            </div>
+            <div class="col-md-4 text-center">
+              <i class="fa fa-database fa-3x" aria-hidden="true"></i>
+              <h2 class="my-2 text-capitalize">Sending data</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur veritatis sequi vel.
+              </p>
+            </div>
+            <div class="col-md-4 text-center">
+              <i class="fa fa-cart-plus fa-3x" aria-hidden="true"></i>
+              <h2 class="my-2 text-capitalize">making money</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur veritatis sequi vel.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end home icon -->
+      <!-- start getstart -->
+      <section class="getstart">
+        <div class="overlay h-100">
+          <div
+            class="container h-100 d-flex justify-content-center align-items-center"
+          >
+            <div class="text-center text-white">
+              <h2 class="text-uppercase mb-3">are you ready to get started</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quibusdam, ipsa. Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end getstart -->
+      <!-- start laptop -->
+      <section class="laptop py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 align-self-center">
+              <h3>Lorem, ipsum.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                soluta, unde molestias iure hic quisquam?
+              </p>
+              <a href="#" class="btn btn-outline-danger">Learn More</a>
+            </div>
+            <div class="col-sm-6">
+              <img src="./images/glozzom/laptop.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end laptop -->
+      <!-- start video -->
+      <section class="video">
+        <div class="overlay h-100">
+          <div
+            class="container h-100 d-flex justify-content-center align-items-center"
+          >
+            <div class="row">
+              <div class="text-center text-white">
+                <div class="video__icon">
+                  <button
+                    class="bg-transparent btn-conf"
+                    type="button"
+                    data-toggle="modal"
+                    data-target="#videoModal"
+                  >
+                    <i class="fa fa-play fa-3x mb-2" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <div class="video__title">
+                  <h3 class="display-4 text-capitalize">see what we do</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end video -->
+      <!-- start photo gallery -->
+      <section class="photo my-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="text-center">
+                <h2 class="text-capitalize">photo gallery</h2>
+                <p>Check out our photos</p>
+              </div>
+            </div>
+          </div>
+          <div class="row" id="lightgallery">
+            <a
+              href="./images/glozzom/slide 1.jpg"
+              class="col-md-4 mb-4"
+              data-toggle="modal"
+            >
+              <img
+                src="./images/glozzom/slide 1.jpg"
+                class="w-100 d-block"
+                alt=""
+              />
+            </a>
+            <a
+              href="./images/glozzom/slide 2.jpg"
+              class="col-md-4 mb-4"
+              data-toggle="modal"
+            >
+              <img
+                src="./images/glozzom/slide 2.jpg"
+                class="w-100 d-block"
+                alt=""
+              />
+            </a>
+            <a
+              href="./images/glozzom/slide 4.jpg"
+              class="col-md-4 mb-4"
+              data-toggle="modal"
+            >
+              <img
+                src="./images/glozzom/slide 4.jpg"
+                class="w-100 d-block"
+                alt=""
+              />
+            </a>
+            <a
+              href="./images/glozzom/slide3.jpg"
+              class="col-md-4 mb-4"
+              data-toggle="modal"
+            >
+              <img
+                src="./images/glozzom/slide3.jpg"
+                class="w-100 d-block"
+                alt=""
+              />
+            </a>
+            <a
+              href="./images/glozzom/slide 5.jpg"
+              class="col-md-4 mb-4"
+              data-toggle="modal"
+            >
+              <img
+                src="./images/glozzom/slide 5.jpg"
+                class="w-100 d-block"
+                alt=""
+              />
+            </a>
+            <a
+              href="./images/glozzom/slide 6.jpg"
+              class="col-md-4 mb-4"
+              data-toggle="modal"
+            >
+              <img
+                src="./images/glozzom/slide 6.jpg"
+                class="w-100 d-block"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- end photo gallery -->
+      <!-- start signUp -->
+      <section class="signup bg-dark py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-10 offset-1 text-center text-white">
+              <h2 class="display-4 text-capitalize mb-3">
+                sign up for our newsletter
+              </h2>
+              <p class="mb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                velit, similique non laborum officiis alias.
+              </p>
+              <form class="form-inline d-flex justify-content-center">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    placeholder="Enter Name"
+                    class="form-control"
+                  />
+                  <input
+                    type="email"
+                    placeholder="Enter Email"
+                    class="form-control mx-2"
+                  />
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end signUp -->
+    </main>
+
+    <!-- start footer -->
+    <footer class="footer py-4" style="background-color: #000;">
+      <div class="container text-center text-white">
+        Copyright &copy; <span id="year"></span> by KentBui
+      </div>
+    </footer>
+    <!-- start video modal -->
+    <div class="modal fade" id="videoModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h6 class="display-6">Video</h6>
+            <button type="button" data-dismiss="modal" class="close">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe
+                class="embed-responsive-item"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/ayAxtbLwEJ8"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END video modal -->
+    <!-- End -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/lightgallery.min.js"></script>
+    <!-- <script src="./js/lg-fullscreen.min.js"></script> -->
+    <script src="https://kit.fontawesome.com/64525e709d.js"></script>
+    <script>
+      // lightgallery slide
+      lightGallery(document.getElementById("lightgallery"), {
+        speed: 800,
+        width: "500px",
+        height: "500px",
+        addClass: "gl-conf",
+      });
+      // get year
+      // $("#year").text(new Date().getFullYear());
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+  </body>
+</html>

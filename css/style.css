@@ -1,0 +1,49 @@
+@import "./setting.css";
+@import "./navbar.css";
+
+.carousel-conf .carousel-item {
+  height: 500px;
+  /* overflow: hidden; */
+}
+
+.carousel-image-1 {
+  background: url(../images/glozzom/image1.jpg) no-repeat;
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url(../images/glozzom/image1.jpg) no-repeat;
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url(../images/glozzom/image1.jpg) no-repeat;
+  background-size: cover;
+}
+
+.getstart {
+  height: 200px;
+  background: url(../images/glozzom/lights.jpg) no-repeat;
+  background-attachment: fixed;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.video {
+  height: 200px;
+  background: url(../images/glozzom/media.jpg) no-repeat;
+  background-attachment: fixed;
+}
+
+.video .video__icon {
+  display: block;
+}
+
+.btn-conf,
+.btn-conf:focus {
+  border: none;
+  outline: none;
+  color: white;
+}
